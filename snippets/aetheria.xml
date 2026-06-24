@@ -3,9 +3,9 @@
 
   <!-- LineageOS additions -->
   <project path="android" name="AetheriaOS/aetheria_android" />
-  <project path="device/lineage/atv" name="AetheriaOS/aetheria_device_lineage_atv" />
-  <project path="device/lineage/car" name="AetheriaOS/aetheria_device_lineage_car" />
-  <project path="device/lineage/sepolicy" name="AetheriaOS/aetheria_device_lineage_sepolicy" />
+  <project path="device/lineage/atv" name="AetheriaOS/aetheria_device_aetheria_atv" />
+  <project path="device/lineage/car" name="AetheriaOS/aetheria_device_aetheria_car" />
+  <project path="device/lineage/sepolicy" name="AetheriaOS/aetheria_device_aetheria_sepolicy" />
   <project path="external/bash" name="AetheriaOS/aetheria_external_bash" />
   <project path="external/chromium-webview/patches" name="AetheriaOS/aetheria_external_chromium-webview_patches" groups="pdk" revision="main" >
     <linkfile src="os_pickup.bp" dest="external/chromium-webview/Android.bp" />
