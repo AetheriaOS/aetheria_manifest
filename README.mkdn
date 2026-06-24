@@ -1,23 +1,36 @@
 <img width="1280" height="640" alt="aetheriaos-banner-liquidglass-black" src="https://github.com/user-attachments/assets/1e84e7e6-a4f0-486f-ad10-a327e221c64c" />
 
-Getting started
+# Get Started
 ---------------
 To get started with Android/LineageOS, you'll need to get familiar with [Source Control Tools](https://source.android.com/setup/develop).
+
+# Initialize local repository
 
 To initialize your local repository using the AetheriaOS trees, use a command like this:
 ```bash
 repo init -u https://github.com/AetheriaOS/aetheria_manifest.git -b aetheria-1.0
 ```
+# Sync up
 
 Then to sync up:
 ```bash
 repo sync --no-clone-bundle --no-tags --force-sync -j8
 ```
+# Building
+
 Set up the build environment
 ```bash
 . build/envsetup.sh
 ```
+# Lunch target
+
 Lunch a target
 ```bash
 lunch lineage_codename-bp4a-userdebug
+```
+
+# Start compiling
+
+```
+?
 ```
