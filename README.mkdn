@@ -13,3 +13,7 @@ Then to sync up:
 ```
 repo sync
 ```
+- Lunch a target
+```bash
+lunch lineage_codename-bp4a-userdebug
+```
