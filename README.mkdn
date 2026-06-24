@@ -13,6 +13,10 @@ Then to sync up:
 ```bash
 repo sync --no-clone-bundle --no-tags --force-sync -j8
 ```
+Set up the build environment
+```bash
+. build/envsetup.sh
+```
 Lunch a target
 ```bash
 lunch lineage_codename-bp4a-userdebug
