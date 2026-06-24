@@ -31,6 +31,6 @@ lunch lineage_codename-bp4a-userdebug
 
 # Start compiling
 
-```
-?
+```bash
+mka bacon
 ```
