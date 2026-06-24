@@ -28,35 +28,13 @@
   <project path="hardware/lineage/compat" name="AetheriaOS/aetheria_hardware_lineage_compat" />
   <project path="hardware/lineage/interfaces" name="AetheriaOS/aetheria_hardware_lineage_interfaces" />
   <project path="lineage-sdk" name="AetheriaOS/aetheria_lineage-sdk" />
-  <project path="packages/apps/Aperture" name="AetheriaOS/aetheria_packages_apps_Aperture" />
-  <project path="packages/apps/AudioFX" name="AetheriaOS/aetheria_packages_apps_AudioFX" />
-  <project path="packages/apps/Backgrounds" name="AetheriaOS/aetheria_packages_apps_Backgrounds" />
   <project path="packages/apps/Camelot" name="AetheriaOS/aetheria_packages_apps_Camelot" />
   <project path="packages/apps/Catapult" name="AetheriaOS/aetheria_packages_apps_Catapult" />
-  <project path="packages/apps/DeskClock" name="AetheriaOS/aetheria_packages_apps_DeskClock" groups="pdk-fs" />
-  <project path="packages/apps/Etar" name="AetheriaOS/aetheria_packages_apps_Etar" />
   <project path="packages/apps/EuiccPolicy" name="AetheriaOS/aetheria_packages_apps_EuiccPolicy" />
-  <project path="packages/apps/ExactCalculator" name="AetheriaOS/aetheria_packages_apps_ExactCalculator" />
-  <project path="packages/apps/FMRadio" name="AetheriaOS/aetheria_packages_apps_FMRadio" />
-  <project path="packages/apps/FlipFlap" name="AetheriaOS/aetheria_packages_apps_FlipFlap" />
-  <project path="packages/apps/Gallery2" name="AetheriaOS/aetheria_packages_apps_Gallery2" groups="pdk-fs" />
-  <project path="packages/apps/Glimpse" name="AetheriaOS/aetheria_packages_apps_Glimpse" />
-  <project path="packages/apps/Jelly" name="AetheriaOS/aetheria_packages_apps_Jelly" />
-  <project path="packages/apps/LineageCustomizer" name="AetheriaOS/aetheria_packages_apps_LineageCustomizer" />
   <project path="packages/apps/LineageParts" name="AetheriaOS/aetheria_packages_apps_LineageParts" />
-  <project path="packages/apps/Profiles" name="AetheriaOS/aetheria_packages_apps_Profiles" />
-  <project path="packages/apps/Recorder" name="AetheriaOS/aetheria_packages_apps_Recorder" />
-  <project path="packages/apps/Seedvault" name="AetheriaOS/aetheria_packages_apps_Seedvault" />
   <project path="packages/apps/SetupWizard" name="AetheriaOS/aetheria_packages_apps_SetupWizard" />
-  <project path="packages/apps/SimpleDeviceConfig" name="AetheriaOS/aetheria_packages_apps_SimpleDeviceConfig" />
-  <project path="packages/apps/SimpleSettingsConfig" name="AetheriaOS/aetheria_packages_apps_SimpleSettingsConfig" />
   <project path="packages/apps/Twelve" name="AetheriaOS/aetheria_packages_apps_Twelve" />
   <project path="packages/apps/Updater" name="AetheriaOS/aetheria_packages_apps_Updater" />
-  <project path="packages/overlays/Lineage" name="AetheriaOS/aetheria_packages_overlays_Lineage" />
-  <project path="packages/resources/devicesettings" name="AetheriaOS/aetheria_packages_resources_devicesettings" />
-  <project path="prebuilts/extract-tools" name="AetheriaOS/aetheria_prebuilts_extract-tools" clone-depth="1" />
-  <project path="tools/extract-utils" name="AetheriaOS/aetheria_tools_extract-utils" />
-  <project path="vendor/apn" name="AetheriaOS/aetheria_vendor_apn" revision="main" />
   <project path="vendor/crowdin" name="AetheriaOS/aetheria_vendor_crowdin" />
   <project path="vendor/lineage" name="AetheriaOS/aetheria_vendor_lineage" />
 
