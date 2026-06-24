@@ -5,15 +5,15 @@ Getting started
 To get started with Android/LineageOS, you'll need to get familiar with [Source Control Tools](https://source.android.com/setup/develop).
 
 To initialize your local repository using the AetheriaOS trees, use a command like this:
-```
+```bash
 repo init -u https://github.com/AetheriaOS/aetheria_manifest.git -b aetheria-1.0
 ```
 
 Then to sync up:
+```bash
+repo sync --no-clone-bundle --no-tags --force-sync -j8
 ```
-repo sync
-```
-- Lunch a target
+Lunch a target
 ```bash
 lunch lineage_codename-bp4a-userdebug
 ```
