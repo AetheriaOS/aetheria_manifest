@@ -1,4 +1,4 @@
-AetheriaOS Base On LineageOS
+AetheriaOS Based On LineageOS
 ===========
 
 Getting started
