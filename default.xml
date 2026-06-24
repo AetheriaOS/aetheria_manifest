@@ -210,7 +210,7 @@
   <project path="external/google-smali" name="platform/external/google-smali" groups="pdk" remote="aosp" />
   <project path="external/googleapis" name="platform/external/googleapis" groups="pdk,tradefed" remote="aosp" />
   <project path="external/googletest" name="platform/external/googletest" groups="pdk" remote="aosp" />
-  <project path="external/gptfdisk" name="AetheriaOS/aetheria_external_gptfdisk" groups="pdk" />
+  <project path="external/gptfdisk" name="LineageOS/android_external_gptfdisk" groups="pdk" />
   <project path="external/grpc-grpc" name="platform/external/grpc-grpc" groups="pdk,tradefed" remote="aosp" />
   <project path="external/grpc-grpc-java" name="platform/external/grpc-grpc-java" groups="pdk,tradefed" remote="aosp" />
   <project path="external/gsc-utils" name="platform/external/gsc-utils" groups="pdk" remote="aosp" />
