@@ -1,4 +1,4 @@
-# AetheriaOS
+<img width="1280" height="640" alt="aetheriaos-banner-liquidglass-black" src="https://github.com/user-attachments/assets/1e84e7e6-a4f0-486f-ad10-a327e221c64c" />
 
 Getting started
 ---------------
