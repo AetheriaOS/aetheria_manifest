@@ -26,11 +26,11 @@ Set up the build environment
 
 Lunch a target
 ```bash
-lunch lineage_codename-bp4a-userdebug
+lunch aetheria_codename-bp4a-userdebug
 ```
 
 # Start compiling
 
 ```bash
-mka bacon
+m bacon -j$(nproc)
 ```
