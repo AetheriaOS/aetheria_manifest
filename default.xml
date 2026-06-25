@@ -753,6 +753,7 @@
   <project path="packages/apps/TV" name="platform/packages/apps/TV" groups="pdk" remote="aosp" />
   <project path="packages/apps/UniversalMediaPlayer" name="platform/packages/apps/UniversalMediaPlayer" remote="aosp" />
   <project path="packages/apps/WallpaperPicker2" name="aetheria_packages_apps_WallpaperPicker2" groups="pdk-fs,sysui-studio" />
+  <project name="AetheriaOS/aetheria_packages_wallpapers_AetheriaWalls" path="packages/wallpapers/AetheriaWalls" remote="github" />
   <project path="packages/inputmethods/LatinIME" name="aetheria_packages_inputmethods_LatinIME" groups="pdk-fs" />
   <project path="packages/inputmethods/LeanbackIME" name="aetheria_packages_inputmethods_LeanbackIME" groups="pdk-fs" />
   <project path="packages/modules/adb" name="aetheria_packages_modules_adb" groups="pdk" />
