@@ -7,14 +7,14 @@
   <project path="device/lineage/car" name="aetheria_device_aetheria_car" />
   <project path="device/lineage/sepolicy" name="aetheria_device_aetheria_sepolicy" />
   <project path="external/bash" name="aetheria_external_bash" />
-  <project path="external/chromium-webview/patches" name="aetheria_external_chromium-webview_patches" groups="pdk" revision="main" >
+  <project path="external/chromium-webview/patches" name="aetheria_external_chromium-webview_patches" groups="pdk" revision="aetheria-1.0" >
     <linkfile src="os_pickup.bp" dest="external/chromium-webview/Android.bp" />
     <linkfile src="README" dest="external/chromium-webview/README" />
   </project>
-  <project path="external/chromium-webview/prebuilt/arm" name="aetheria_external_chromium-webview_prebuilt_arm" groups="pdk" revision="main" />
-  <project path="external/chromium-webview/prebuilt/arm64" name="aetheria_external_chromium-webview_prebuilt_arm64" groups="pdk" revision="main" />
-  <project path="external/chromium-webview/prebuilt/x86" name="aetheria_external_chromium-webview_prebuilt_x86" groups="pdk" revision="main" />
-  <project path="external/chromium-webview/prebuilt/x86_64" name="aetheria_external_chromium-webview_prebuilt_x86_64" groups="pdk" revision="main" />
+  <project path="external/chromium-webview/prebuilt/arm" name="aetheria_external_chromium-webview_prebuilt_arm" groups="pdk" revision="aetheria-1.0" />
+  <project path="external/chromium-webview/prebuilt/arm64" name="aetheria_external_chromium-webview_prebuilt_arm64" groups="pdk" revision="aetheria-1.0" />
+  <project path="external/chromium-webview/prebuilt/x86" name="aetheria_external_chromium-webview_prebuilt_x86" groups="pdk" revision="aetheria-1.0" />
+  <project path="external/chromium-webview/prebuilt/x86_64" name="aetheria_external_chromium-webview_prebuilt_x86_64" groups="pdk" revision="aetheria-1.0" />
   <project path="external/exfatprogs" name="aetheria_external_exfatprogs" />
   <project path="external/google-fonts/google-sans-flex" name="aetheria_external_google-fonts_google-sans-flex" />
   <project path="external/htop" name="aetheria_external_htop" />
