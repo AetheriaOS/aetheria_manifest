@@ -6,7 +6,7 @@
     <project path="packages/apps/AudioFX" name="android_packages_apps_AudioFX" remote="lineage" revision="lineage-23.2" />
     <project path="packages/apps/Backgrounds" name="android_packages_apps_Backgrounds" remote="lineage" revision="lineage-23.2" />
     <project path="packages/apps/DeskClock" name="android_packages_apps_DeskClock" groups="pdk-fs" remote="lineage" revision="lineage-23.2" />
-    <project path="packages/apps/Eleven" name="android_packages_apps_Eleven" remote="lineage" revision="lineage-23.2" />
+    <project path="packages/apps/Eleven" name="android_packages_apps_Eleven" remote="lineage" revision="lineage-22.0" />
     <project path="packages/apps/Etar" name="android_packages_apps_Etar" remote="lineage" revision="lineage-23.2" />
     <project path="packages/apps/ExactCalculator" name="android_packages_apps_ExactCalculator" remote="lineage" revision="lineage-23.2" />
     <project path="packages/apps/FMRadio" name="android_packages_apps_FMRadio" remote="lineage" revision="lineage-23.2" />
@@ -24,7 +24,7 @@
     <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="lineage" revision="lineage-23.2" />
     <project path="prebuilts/extract-tools" name="android_prebuilts_extract-tools" clone-depth="1" remote="lineage" revision="lineage-23.2" />
     <project path="tools/extract-utils" name="android_tools_extract-utils" remote="lineage" revision="lineage-23.2" />
-    <project path="vendor/apn" name="android_vendor_apn" remote="lineage" revision="lineage-23.2" />
+    <project path="vendor/apn" name="android_vendor_apn" remote="lineage" revision="main" />
 
   <!-- Legacy AOSP additions -->
 
