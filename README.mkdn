@@ -34,3 +34,26 @@ lunch aetheria_codename-bp4a-userdebug
 ```bash
 m bacon -j$(nproc)
 ```
+
+# Building as Official Maintainer
+---------------
+> **Note:** Only registered maintainers in [AetheriaOS Official Devices](https://github.com/AetheriaOS/aetheria_official_devices) can build official releases.
+
+Make sure your SSH key is registered in your GitHub account, then build as usual. The build system will automatically detect your GitHub username and mark the build as **OFFICIAL**.
+
+To verify your SSH key is working:
+```bash
+ssh -T git@github.com
+```
+Expected output:
+
+Then build normally:
+```bash
+. build/envsetup.sh
+lunch aetheria_codename-bp4a-userdebug
+m bacon -j$(nproc)
+```
+
+The build will automatically be marked as:
+- **OFFICIAL** — if your GitHub username is registered in official devices repo
+- **UNOFFICIAL** — if your GitHub username is not registered
