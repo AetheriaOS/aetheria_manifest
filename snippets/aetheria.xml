@@ -2,74 +2,74 @@
 <manifest>
 
   <!-- LineageOS additions -->
-  <project path="android" name="AetheriaOS/aetheria_android" />
-  <project path="device/lineage/atv" name="AetheriaOS/aetheria_device_aetheria_atv" />
-  <project path="device/lineage/car" name="AetheriaOS/aetheria_device_aetheria_car" />
-  <project path="device/lineage/sepolicy" name="AetheriaOS/aetheria_device_aetheria_sepolicy" />
-  <project path="external/bash" name="AetheriaOS/aetheria_external_bash" />
-  <project path="external/chromium-webview/patches" name="AetheriaOS/aetheria_external_chromium-webview_patches" groups="pdk" revision="main" >
+  <project path="android" name="aetheria_android" />
+  <project path="device/lineage/atv" name="aetheria_device_aetheria_atv" />
+  <project path="device/lineage/car" name="aetheria_device_aetheria_car" />
+  <project path="device/lineage/sepolicy" name="aetheria_device_aetheria_sepolicy" />
+  <project path="external/bash" name="aetheria_external_bash" />
+  <project path="external/chromium-webview/patches" name="aetheria_external_chromium-webview_patches" groups="pdk" revision="main" >
     <linkfile src="os_pickup.bp" dest="external/chromium-webview/Android.bp" />
     <linkfile src="README" dest="external/chromium-webview/README" />
   </project>
-  <project path="external/chromium-webview/prebuilt/arm" name="AetheriaOS/aetheria_external_chromium-webview_prebuilt_arm" groups="pdk" revision="main" />
-  <project path="external/chromium-webview/prebuilt/arm64" name="AetheriaOS/aetheria_external_chromium-webview_prebuilt_arm64" groups="pdk" revision="main" />
-  <project path="external/chromium-webview/prebuilt/x86" name="AetheriaOS/aetheria_external_chromium-webview_prebuilt_x86" groups="pdk" revision="main" />
-  <project path="external/chromium-webview/prebuilt/x86_64" name="AetheriaOS/aetheria_external_chromium-webview_prebuilt_x86_64" groups="pdk" revision="main" />
-  <project path="external/exfatprogs" name="AetheriaOS/aetheria_external_exfatprogs" />
-  <project path="external/google-fonts/google-sans-flex" name="AetheriaOS/aetheria_external_google-fonts_google-sans-flex" />
-  <project path="external/htop" name="AetheriaOS/aetheria_external_htop" />
-  <project path="external/libncurses" name="AetheriaOS/aetheria_external_libncurses" />
-  <project path="external/nano" name="AetheriaOS/aetheria_external_nano" />
-  <project path="external/ntfs-3g" name="AetheriaOS/aetheria_external_ntfs-3g" />
-  <project path="external/openssh" name="AetheriaOS/aetheria_external_openssh" groups="pdk" />
-  <project path="external/rsync" name="AetheriaOS/aetheria_external_rsync" />
-  <project path="external/unrar" name="AetheriaOS/aetheria_external_unrar" />
-  <project path="external/vim" name="AetheriaOS/aetheria_external_vim" />
-  <project path="hardware/lineage/compat" name="AetheriaOS/aetheria_hardware_lineage_compat" />
-  <project path="hardware/lineage/interfaces" name="AetheriaOS/aetheria_hardware_lineage_interfaces" />
-  <project path="lineage-sdk" name="AetheriaOS/aetheria_lineage-sdk" />
-  <project path="packages/apps/Camelot" name="AetheriaOS/aetheria_packages_apps_Camelot" />
-  <project path="packages/apps/Catapult" name="AetheriaOS/aetheria_packages_apps_Catapult" />
-  <project path="packages/apps/EuiccPolicy" name="AetheriaOS/aetheria_packages_apps_EuiccPolicy" />
-  <project path="packages/apps/LineageParts" name="AetheriaOS/aetheria_packages_apps_LineageParts" />
-  <project path="packages/apps/SetupWizard" name="AetheriaOS/aetheria_packages_apps_SetupWizard" />
-  <project path="packages/apps/Twelve" name="AetheriaOS/aetheria_packages_apps_Twelve" />
-  <project path="packages/apps/Updater" name="AetheriaOS/aetheria_packages_apps_Updater" />
-  <project path="vendor/crowdin" name="AetheriaOS/aetheria_vendor_crowdin" />
-  <project path="vendor/aetheria" name="AetheriaOS/aetheria_vendor" />
+  <project path="external/chromium-webview/prebuilt/arm" name="aetheria_external_chromium-webview_prebuilt_arm" groups="pdk" revision="main" />
+  <project path="external/chromium-webview/prebuilt/arm64" name="aetheria_external_chromium-webview_prebuilt_arm64" groups="pdk" revision="main" />
+  <project path="external/chromium-webview/prebuilt/x86" name="aetheria_external_chromium-webview_prebuilt_x86" groups="pdk" revision="main" />
+  <project path="external/chromium-webview/prebuilt/x86_64" name="aetheria_external_chromium-webview_prebuilt_x86_64" groups="pdk" revision="main" />
+  <project path="external/exfatprogs" name="aetheria_external_exfatprogs" />
+  <project path="external/google-fonts/google-sans-flex" name="aetheria_external_google-fonts_google-sans-flex" />
+  <project path="external/htop" name="aetheria_external_htop" />
+  <project path="external/libncurses" name="aetheria_external_libncurses" />
+  <project path="external/nano" name="aetheria_external_nano" />
+  <project path="external/ntfs-3g" name="aetheria_external_ntfs-3g" />
+  <project path="external/openssh" name="aetheria_external_openssh" groups="pdk" />
+  <project path="external/rsync" name="aetheria_external_rsync" />
+  <project path="external/unrar" name="aetheria_external_unrar" />
+  <project path="external/vim" name="aetheria_external_vim" />
+  <project path="hardware/lineage/compat" name="aetheria_hardware_lineage_compat" />
+  <project path="hardware/lineage/interfaces" name="aetheria_hardware_lineage_interfaces" />
+  <project path="lineage-sdk" name="aetheria_lineage-sdk" />
+  <project path="packages/apps/Camelot" name="aetheria_packages_apps_Camelot" />
+  <project path="packages/apps/Catapult" name="aetheria_packages_apps_Catapult" />
+  <project path="packages/apps/EuiccPolicy" name="aetheria_packages_apps_EuiccPolicy" />
+  <project path="packages/apps/LineageParts" name="aetheria_packages_apps_LineageParts" />
+  <project path="packages/apps/SetupWizard" name="aetheria_packages_apps_SetupWizard" />
+  <project path="packages/apps/Twelve" name="aetheria_packages_apps_Twelve" />
+  <project path="packages/apps/Updater" name="aetheria_packages_apps_Updater" />
+  <project path="vendor/crowdin" name="aetheria_vendor_crowdin" />
+  <project path="vendor/aetheria" name="aetheria_vendor" />
 
   <!-- Legacy AOSP additions -->
   <project path="external/tinyxml" name="platform/external/tinyxml" groups="pdk" remote="aosp" revision="refs/tags/android-11.0.0_r46" />
-  <project path="hardware/knowles/athletico/sound_trigger_hal" name="AetheriaOS/aetheria_hardware_knowles_athletico_sound_trigger_hal" groups="coral" />
-  <project path="hardware/qcom/audio" name="AetheriaOS/aetheria_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" />
-  <project path="hardware/qcom/bt" name="AetheriaOS/aetheria_hardware_qcom_bt" groups="qcom,pdk-qcom" />
-  <project path="hardware/qcom/camera" name="AetheriaOS/aetheria_hardware_qcom_camera" groups="qcom,qcom_camera,pdk-qcom" />
-  <project path="hardware/qcom/data/ipacfg-mgr" name="AetheriaOS/aetheria_hardware_qcom_data_ipacfg-mgr" groups="qcom,pdk-qcom" />
-  <project path="hardware/qcom/display" name="AetheriaOS/aetheria_hardware_qcom_display" groups="qcom,qcom_display,pdk-qcom" />
-  <project path="hardware/qcom/gps" name="AetheriaOS/aetheria_hardware_qcom_gps" groups="qcom,qcom_gps,pdk-qcom" />
-  <project path="hardware/qcom/media" name="AetheriaOS/aetheria_hardware_qcom_media" groups="qcom,pdk-qcom" />
-  <project path="hardware/qcom/sdm845/display" name="AetheriaOS/aetheria_hardware_qcom_sdm845_display" groups="qcom,qcom_sdm845" />
-  <project path="hardware/qcom/sdm845/gps" name="AetheriaOS/aetheria_hardware_qcom_sdm845_gps" groups="qcom,qcom_sdm845" />
-  <project path="hardware/qcom/sm7250/display" name="AetheriaOS/aetheria_hardware_qcom_sm7250_display" groups="qcom,qcom_sm7250" />
-  <project path="hardware/qcom/sm7250/gps" name="AetheriaOS/aetheria_hardware_qcom_sm7250_gps" groups="qcom,qcom_sm7250" />
-  <project path="hardware/qcom/sm8150/display" name="AetheriaOS/aetheria_hardware_qcom_sm8150_display" groups="qcom,qcom_sm8150" />
-  <project path="hardware/qcom/sm8150/gps" name="AetheriaOS/aetheria_hardware_qcom_sm8150_gps" groups="qcom,qcom_sm8150" />
+  <project path="hardware/knowles/athletico/sound_trigger_hal" name="aetheria_hardware_knowles_athletico_sound_trigger_hal" groups="coral" />
+  <project path="hardware/qcom/audio" name="aetheria_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" />
+  <project path="hardware/qcom/bt" name="aetheria_hardware_qcom_bt" groups="qcom,pdk-qcom" />
+  <project path="hardware/qcom/camera" name="aetheria_hardware_qcom_camera" groups="qcom,qcom_camera,pdk-qcom" />
+  <project path="hardware/qcom/data/ipacfg-mgr" name="aetheria_hardware_qcom_data_ipacfg-mgr" groups="qcom,pdk-qcom" />
+  <project path="hardware/qcom/display" name="aetheria_hardware_qcom_display" groups="qcom,qcom_display,pdk-qcom" />
+  <project path="hardware/qcom/gps" name="aetheria_hardware_qcom_gps" groups="qcom,qcom_gps,pdk-qcom" />
+  <project path="hardware/qcom/media" name="aetheria_hardware_qcom_media" groups="qcom,pdk-qcom" />
+  <project path="hardware/qcom/sdm845/display" name="aetheria_hardware_qcom_sdm845_display" groups="qcom,qcom_sdm845" />
+  <project path="hardware/qcom/sdm845/gps" name="aetheria_hardware_qcom_sdm845_gps" groups="qcom,qcom_sdm845" />
+  <project path="hardware/qcom/sm7250/display" name="aetheria_hardware_qcom_sm7250_display" groups="qcom,qcom_sm7250" />
+  <project path="hardware/qcom/sm7250/gps" name="aetheria_hardware_qcom_sm7250_gps" groups="qcom,qcom_sm7250" />
+  <project path="hardware/qcom/sm8150/display" name="aetheria_hardware_qcom_sm8150_display" groups="qcom,qcom_sm8150" />
+  <project path="hardware/qcom/sm8150/gps" name="aetheria_hardware_qcom_sm8150_gps" groups="qcom,qcom_sm8150" />
 
    <!-- Inline kernel build -->
 
   <!-- CodeLinaro additions -->
-  <project path="device/qcom/sepolicy" name="AetheriaOS/aetheria_device_qcom_sepolicy" groups="qcom,qssi" />
-  <project path="device/qcom/sepolicy-legacy-um" name="AetheriaOS/aetheria_device_qcom_sepolicy" groups="qcom,sdm660" revision="lineage-23.2-legacy-um" />
-  <project path="device/qcom/sepolicy_vndr/legacy-um" name="AetheriaOS/aetheria_device_qcom_sepolicy_vndr" groups="qcom,lahaina" revision="lineage-23.2-legacy-um" />
-  <project path="device/qcom/sepolicy_vndr/sm8450" name="AetheriaOS/aetheria_device_qcom_sepolicy_vndr" groups="qcom,waipio-vendor" revision="lineage-23.2-caf-sm8450" />
-  <project path="device/qcom/sepolicy_vndr/sm8550" name="AetheriaOS/aetheria_device_qcom_sepolicy_vndr" groups="qcom,kailua-vendor" revision="lineage-23.2-caf-sm8550" />
-  <project path="device/qcom/sepolicy_vndr/sm8650" name="AetheriaOS/aetheria_device_qcom_sepolicy_vndr" groups="qcom,lanai-vendor" revision="lineage-23.2-caf-sm8650" />
-  <project path="device/qcom/sepolicy_vndr/sm8750" name="AetheriaOS/aetheria_device_qcom_sepolicy_vndr" groups="qcom,pakala-vendor" revision="lineage-23.2-caf-sm8750" />
-  <project path="external/ant-wireless/hidl" name="AetheriaOS/aetheria_external_ant-wireless_hidl" groups="qcom,qssi" />
-  <project path="external/json-c" name="AetheriaOS/aetheria_external_json-c" groups="qcom,qssi" />
-  <project path="hardware/qcom-caf/bootctrl" name="AetheriaOS/aetheria_hardware_qcom_bootctrl" groups="qcom,pakala-vendor" revision="lineage-23.2-caf" />
-  <project path="hardware/qcom-caf/bt" name="AetheriaOS/aetheria_hardware_qcom_bt" groups="qcom,legacy-qcom" revision="lineage-23.2-caf" />
-  <project path="hardware/qcom-caf/common" name="AetheriaOS/aetheria_hardware_qcom-caf_common" groups="qcom" >
+  <project path="device/qcom/sepolicy" name="aetheria_device_qcom_sepolicy" groups="qcom,qssi" />
+  <project path="device/qcom/sepolicy-legacy-um" name="aetheria_device_qcom_sepolicy" groups="qcom,sdm660" revision="lineage-23.2-legacy-um" />
+  <project path="device/qcom/sepolicy_vndr/legacy-um" name="aetheria_device_qcom_sepolicy_vndr" groups="qcom,lahaina" revision="lineage-23.2-legacy-um" />
+  <project path="device/qcom/sepolicy_vndr/sm8450" name="aetheria_device_qcom_sepolicy_vndr" groups="qcom,waipio-vendor" revision="lineage-23.2-caf-sm8450" />
+  <project path="device/qcom/sepolicy_vndr/sm8550" name="aetheria_device_qcom_sepolicy_vndr" groups="qcom,kailua-vendor" revision="lineage-23.2-caf-sm8550" />
+  <project path="device/qcom/sepolicy_vndr/sm8650" name="aetheria_device_qcom_sepolicy_vndr" groups="qcom,lanai-vendor" revision="lineage-23.2-caf-sm8650" />
+  <project path="device/qcom/sepolicy_vndr/sm8750" name="aetheria_device_qcom_sepolicy_vndr" groups="qcom,pakala-vendor" revision="lineage-23.2-caf-sm8750" />
+  <project path="external/ant-wireless/hidl" name="aetheria_external_ant-wireless_hidl" groups="qcom,qssi" />
+  <project path="external/json-c" name="aetheria_external_json-c" groups="qcom,qssi" />
+  <project path="hardware/qcom-caf/bootctrl" name="aetheria_hardware_qcom_bootctrl" groups="qcom,pakala-vendor" revision="lineage-23.2-caf" />
+  <project path="hardware/qcom-caf/bt" name="aetheria_hardware_qcom_bt" groups="qcom,legacy-qcom" revision="lineage-23.2-caf" />
+  <project path="hardware/qcom-caf/common" name="aetheria_hardware_qcom-caf_common" groups="qcom" >
     <!-- add guard for AOSP hardware/qcom dir -->
     <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
     <!-- add guards for CAF repositories -->
@@ -89,92 +89,92 @@
     <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8650/Android.bp" />
     <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8750/Android.bp" />
   </project>
-  <project path="hardware/qcom-caf/msm8953/audio" name="AetheriaOS/aetheria_hardware_qcom_audio" groups="qcom,msm8953" revision="lineage-23.2-caf-msm8953" />
-  <project path="hardware/qcom-caf/msm8953/display" name="AetheriaOS/aetheria_hardware_qcom_display" groups="qcom" revision="lineage-23.2-caf-msm8953" />
-  <project path="hardware/qcom-caf/msm8953/media" name="AetheriaOS/aetheria_hardware_qcom_media" groups="qcom,msm8953" revision="lineage-23.2-caf-msm8953" />
-  <project path="hardware/qcom-caf/msm8996/audio" name="AetheriaOS/aetheria_hardware_qcom_audio" groups="qcom,legacy-qcom" revision="lineage-23.2-caf-msm8996" />
-  <project path="hardware/qcom-caf/msm8996/display" name="AetheriaOS/aetheria_hardware_qcom_display" groups="qcom,legacy-qcom" revision="lineage-23.2-caf-msm8996" />
-  <project path="hardware/qcom-caf/msm8996/media" name="AetheriaOS/aetheria_hardware_qcom_media" groups="qcom,legacy-qcom" revision="lineage-23.2-caf-msm8996" />
-  <project path="hardware/qcom-caf/msm8998/audio" name="AetheriaOS/aetheria_hardware_qcom_audio" groups="qcom,legacy-qcom" revision="lineage-23.2-caf-msm8998" />
-  <project path="hardware/qcom-caf/msm8998/display" name="AetheriaOS/aetheria_hardware_qcom_display" groups="qcom,legacy-qcom" revision="lineage-23.2-caf-msm8998" />
-  <project path="hardware/qcom-caf/msm8998/media" name="AetheriaOS/aetheria_hardware_qcom_media" groups="qcom,legacy-qcom" revision="lineage-23.2-caf-msm8998" />
-  <project path="hardware/qcom-caf/sdm660/audio" name="AetheriaOS/aetheria_hardware_qcom_audio" groups="qcom,sdm660" revision="lineage-23.2-caf-sdm660" />
-  <project path="hardware/qcom-caf/sdm660/display" name="AetheriaOS/aetheria_hardware_qcom_display" groups="qcom" revision="lineage-23.2-caf-sdm660" />
-  <project path="hardware/qcom-caf/sdm660/media" name="AetheriaOS/aetheria_hardware_qcom_media" groups="qcom,sdm660" revision="lineage-23.2-caf-sdm660" />
-  <project path="hardware/qcom-caf/sdm845/audio" name="AetheriaOS/aetheria_hardware_qcom_audio" groups="qcom,sdm845" revision="lineage-23.2-caf-sdm845" />
-  <project path="hardware/qcom-caf/sdm845/display" name="AetheriaOS/aetheria_hardware_qcom_display" groups="qcom" revision="lineage-23.2-caf-sdm845" />
-  <project path="hardware/qcom-caf/sdm845/media" name="AetheriaOS/aetheria_hardware_qcom_media" groups="qcom,sdm845" revision="lineage-23.2-caf-sdm845" />
-  <project path="hardware/qcom-caf/sm8150/audio" name="AetheriaOS/aetheria_hardware_qcom_audio" groups="qcom,msmnile" revision="lineage-23.2-caf-sm8150" />
-  <project path="hardware/qcom-caf/sm8150/display" name="AetheriaOS/aetheria_hardware_qcom_display" groups="qcom" revision="lineage-23.2-caf-sm8150" />
-  <project path="hardware/qcom-caf/sm8150/media" name="AetheriaOS/aetheria_hardware_qcom_media" groups="qcom,msmnile" revision="lineage-23.2-caf-sm8150" />
-  <project path="hardware/qcom-caf/sm8250/audio" name="AetheriaOS/aetheria_hardware_qcom_audio" groups="qcom,kona" revision="lineage-23.2-caf-sm8250" />
-  <project path="hardware/qcom-caf/sm8250/display" name="AetheriaOS/aetheria_hardware_qcom_display" groups="qcom" revision="lineage-23.2-caf-sm8250" />
-  <project path="hardware/qcom-caf/sm8250/media" name="AetheriaOS/aetheria_hardware_qcom_media" groups="qcom,kona" revision="lineage-23.2-caf-sm8250" />
-  <project path="hardware/qcom-caf/sm8350/audio" name="AetheriaOS/aetheria_hardware_qcom_audio" groups="qcom,lahaina" revision="lineage-23.2-caf-sm8350" />
-  <project path="hardware/qcom-caf/sm8350/display" name="AetheriaOS/aetheria_hardware_qcom_display" groups="qcom" revision="lineage-23.2-caf-sm8350" />
-  <project path="hardware/qcom-caf/sm8450/audio/agm" name="AetheriaOS/aetheria_vendor_qcom_opensource_agm" groups="qcom,waipio-vendor" revision="lineage-23.2-caf-sm8450" />
-  <project path="hardware/qcom-caf/sm8450/audio/graphservices" name="AetheriaOS/aetheria_vendor_qcom_opensource_audioreach-graphservices" groups="qcom" revision="lineage-23.2-caf-sm8450" />
-  <project path="hardware/qcom-caf/sm8450/audio/pal" name="AetheriaOS/aetheria_vendor_qcom_opensource_arpal-lx" groups="qcom,waipio-vendor" revision="lineage-23.2-caf-sm8450" />
-  <project path="hardware/qcom-caf/sm8450/audio/primary-hal" name="AetheriaOS/aetheria_hardware_qcom_audio-ar" groups="qcom,waipio-vendor" revision="lineage-23.2-caf-sm8450" />
-  <project path="hardware/qcom-caf/sm8450/data-ipa-cfg-mgr" name="AetheriaOS/aetheria_vendor_qcom_opensource_data-ipa-cfg-mgr" groups="qcom,waipio-vendor" revision="lineage-23.2-caf-sm8450" />
-  <project path="hardware/qcom-caf/sm8450/display" name="AetheriaOS/aetheria_hardware_qcom_display" groups="qcom" revision="lineage-23.2-caf-sm8450" />
-  <project path="hardware/qcom-caf/sm8450-6.6/audio/agm" name="AetheriaOS/aetheria_vendor_qcom_opensource_agm" groups="qcom,waipio-6.6-vendor" revision="lineage-23.2-caf-sm8450-6.6" />
-  <project path="hardware/qcom-caf/sm8450-6.6/audio/graphservices" name="AetheriaOS/aetheria_vendor_qcom_opensource_audioreach-graphservices" groups="qcom" revision="lineage-23.2-caf-sm8450-6.6" />
-  <project path="hardware/qcom-caf/sm8450-6.6/audio/pal" name="AetheriaOS/aetheria_vendor_qcom_opensource_arpal-lx" groups="qcom,waipio-6.6-vendor" revision="lineage-23.2-caf-sm8450-6.6" />
-  <project path="hardware/qcom-caf/sm8450-6.6/audio/primary-hal" name="AetheriaOS/aetheria_hardware_qcom_audio-ar" groups="qcom,waipio-6.6-vendor" revision="lineage-23.2-caf-sm8450-6.6" />
-  <project path="hardware/qcom-caf/sm8450-6.6/data-ipa-cfg-mgr" name="AetheriaOS/aetheria_vendor_qcom_opensource_data-ipa-cfg-mgr" groups="qcom,waipio-6.6-vendor" revision="lineage-23.2-caf-sm8450-6.6" />
-  <project path="hardware/qcom-caf/sm8450-6.6/dataipa" name="AetheriaOS/aetheria_vendor_qcom_opensource_dataipa" groups="qcom,waipio-6.6-vendor" revision="lineage-23.2-caf-sm8450-6.6" />
-  <project path="hardware/qcom-caf/sm8450-6.6/display/core" name="AetheriaOS/aetheria_vendor_qcom_opensource_display-core" groups="qcom" revision="lineage-23.2-caf-sm8450-6.6" />
-  <project path="hardware/qcom-caf/sm8450-6.6/display/hal" name="AetheriaOS/aetheria_hardware_qcom_display" groups="qcom" revision="lineage-23.2-caf-sm8450-6.6" />
-  <project path="hardware/qcom-caf/sm8450-6.6/display/intf" name="AetheriaOS/aetheria_vendor_qcom_opensource_display-intf" groups="qcom" revision="lineage-23.2-caf-sm8450-6.6" />
-  <project path="hardware/qcom-caf/sm8550/audio/agm" name="AetheriaOS/aetheria_vendor_qcom_opensource_agm" groups="qcom,kailua-audio" revision="lineage-23.2-caf-sm8550" />
-  <project path="hardware/qcom-caf/sm8550/audio/graphservices" name="AetheriaOS/aetheria_vendor_qcom_opensource_audioreach-graphservices" groups="qcom" revision="lineage-23.2-caf-sm8550" />
-  <project path="hardware/qcom-caf/sm8550/audio/pal" name="AetheriaOS/aetheria_vendor_qcom_opensource_arpal-lx" groups="qcom,kailua-audio" revision="lineage-23.2-caf-sm8550" />
-  <project path="hardware/qcom-caf/sm8550/audio/primary-hal" name="AetheriaOS/aetheria_hardware_qcom_audio-ar" groups="qcom,kailua-audio" revision="lineage-23.2-caf-sm8550" />
-  <project path="hardware/qcom-caf/sm8550/data-ipa-cfg-mgr" name="AetheriaOS/aetheria_vendor_qcom_opensource_data-ipa-cfg-mgr" groups="qcom,kailua-vendor" revision="lineage-23.2-caf-sm8550" />
-  <project path="hardware/qcom-caf/sm8550/dataipa" name="AetheriaOS/aetheria_vendor_qcom_opensource_dataipa" groups="qcom,kailua-vendor" revision="lineage-23.2-caf-sm8550" />
-  <project path="hardware/qcom-caf/sm8550/display" name="AetheriaOS/aetheria_hardware_qcom_display" groups="qcom" revision="lineage-23.2-caf-sm8550" />
-  <project path="hardware/qcom-caf/sm8650/audio/agm" name="AetheriaOS/aetheria_vendor_qcom_opensource_agm" groups="qcom,lanai-audio" revision="lineage-23.2-caf-sm8650" />
-  <project path="hardware/qcom-caf/sm8650/audio/graphservices" name="AetheriaOS/aetheria_vendor_qcom_opensource_audioreach-graphservices" groups="qcom" revision="lineage-23.2-caf-sm8650" />
-  <project path="hardware/qcom-caf/sm8650/audio/pal" name="AetheriaOS/aetheria_vendor_qcom_opensource_arpal-lx" groups="qcom,lanai-audio" revision="lineage-23.2-caf-sm8650" />
-  <project path="hardware/qcom-caf/sm8650/audio/primary-hal" name="AetheriaOS/aetheria_hardware_qcom_audio-ar" groups="qcom,lanai-audio" revision="lineage-23.2-caf-sm8650" />
-  <project path="hardware/qcom-caf/sm8650/data-ipa-cfg-mgr" name="AetheriaOS/aetheria_vendor_qcom_opensource_data-ipa-cfg-mgr" groups="qcom,lanai-vendor" revision="lineage-23.2-caf-sm8650" />
-  <project path="hardware/qcom-caf/sm8650/dataipa" name="AetheriaOS/aetheria_vendor_qcom_opensource_dataipa" groups="qcom,lanai-vendor" revision="lineage-23.2-caf-sm8650" />
-  <project path="hardware/qcom-caf/sm8650/display" name="AetheriaOS/aetheria_hardware_qcom_display" groups="qcom" revision="lineage-23.2-caf-sm8650" />
-  <project path="hardware/qcom-caf/sm8750/audio/agm" name="AetheriaOS/aetheria_vendor_qcom_opensource_agm" groups="qcom,pakala-audio" revision="lineage-23.2-caf-sm8750" />
-  <project path="hardware/qcom-caf/sm8750/audio/graphservices" name="AetheriaOS/aetheria_vendor_qcom_opensource_audioreach-graphservices" groups="qcom" revision="lineage-23.2-caf-sm8750" />
-  <project path="hardware/qcom-caf/sm8750/audio/pal" name="AetheriaOS/aetheria_vendor_qcom_opensource_arpal-lx" groups="qcom,pakala-audio" revision="lineage-23.2-caf-sm8750" />
-  <project path="hardware/qcom-caf/sm8750/audio/primary-hal" name="AetheriaOS/aetheria_hardware_qcom_audio-ar" groups="qcom,pakala-audio" revision="lineage-23.2-caf-sm8750" />
-  <project path="hardware/qcom-caf/sm8750/data-ipa-cfg-mgr" name="AetheriaOS/aetheria_vendor_qcom_opensource_data-ipa-cfg-mgr" groups="qcom,pakala-vendor" revision="lineage-23.2-caf-sm8750" />
-  <project path="hardware/qcom-caf/sm8750/dataipa" name="AetheriaOS/aetheria_vendor_qcom_opensource_dataipa" groups="qcom,pakala-vendor" revision="lineage-23.2-caf-sm8750" />
-  <project path="hardware/qcom-caf/sm8750/display/core" name="AetheriaOS/aetheria_vendor_qcom_opensource_display-core" groups="qcom" revision="lineage-23.2-caf-sm8750" />
-  <project path="hardware/qcom-caf/sm8750/display/hal" name="AetheriaOS/aetheria_hardware_qcom_display" groups="qcom" revision="lineage-23.2-caf-sm8750" />
-  <project path="hardware/qcom-caf/sm8750/display/intf" name="AetheriaOS/aetheria_vendor_qcom_opensource_display-intf" groups="qcom" revision="lineage-23.2-caf-sm8750" />
-  <project path="hardware/qcom-caf/thermal" name="AetheriaOS/aetheria_hardware_qcom_thermal" groups="qcom,pakala-vendor" />
-  <project path="hardware/qcom-caf/thermal-legacy-um" name="AetheriaOS/aetheria_hardware_qcom_thermal" groups="qcom,lanai-vendor" revision="lineage-23.2-legacy-um" />
-  <project path="hardware/qcom-caf/wlan" name="AetheriaOS/aetheria_hardware_qcom_wlan" groups="qcom,pakala-wlan" revision="lineage-23.2-caf" />
-  <project path="vendor/codeaurora/telephony" name="AetheriaOS/aetheria_vendor_codeaurora_telephony" groups="qcom,qssi" />
-  <project path="vendor/qcom/opensource/audio-hal/st-hal" name="AetheriaOS/aetheria_vendor_qcom_opensource_audio-hal_st-hal" groups="qcom,lahaina" />
-  <project path="vendor/qcom/opensource/audio-hal/st-hal-ar" name="AetheriaOS/aetheria_vendor_qcom_opensource_audio-hal_st-hal-ar" groups="qcom,pakala-audio" />
-  <project path="vendor/qcom/opensource/audio-hal/st-hal-ar-legacy" name="AetheriaOS/aetheria_vendor_qcom_opensource_audio-hal_st-hal-ar" groups="qcom,lanai-audio" revision="lineage-23.2-legacy" />
-  <project path="vendor/qcom/opensource/commonsys-intf/audio" name="AetheriaOS/aetheria_vendor_qcom_opensource_audio-commonsys-intf" groups="qcom,qssi" />
-  <project path="vendor/qcom/opensource/commonsys-intf/display" name="AetheriaOS/aetheria_vendor_qcom_opensource_display-commonsys-intf" groups="qcom,qssi" />
-  <project path="vendor/qcom/opensource/commonsys/audio" name="AetheriaOS/aetheria_vendor_qcom_opensource_audio" groups="qcom,qssi" />
-  <project path="vendor/qcom/opensource/commonsys/display" name="AetheriaOS/aetheria_vendor_qcom_opensource_display-commonsys" groups="qcom,qssi" />
-  <project path="vendor/qcom/opensource/commonsys/fm" name="AetheriaOS/aetheria_vendor_qcom_opensource_fm-commonsys" groups="qcom,qssi" />
-  <project path="vendor/qcom/opensource/commonsys/wfd" name="AetheriaOS/aetheria_vendor_qcom_opensource_wfd-commonsys" groups="qcom,pakala-video" />
-  <project path="vendor/qcom/opensource/core-utils-sys" name="AetheriaOS/aetheria_vendor_qcom_opensource_core-utils-sys" groups="qcom,qssi" />
-  <project path="vendor/qcom/opensource/core-utils-vendor" name="AetheriaOS/aetheria_vendor_qcom_opensource_core-utils-vendor" groups="qcom,pakala-vendor" />
-  <project path="vendor/qcom/opensource/data-ipa-cfg-mgr-legacy-um" name="AetheriaOS/aetheria_vendor_qcom_opensource_data-ipa-cfg-mgr" groups="qcom,lahaina" revision="lineage-23.2-legacy-um" />
-  <project path="vendor/qcom/opensource/dataservices" name="AetheriaOS/aetheria_vendor_qcom_opensource_dataservices" groups="qcom,pakala-vendor" />
-  <project path="vendor/qcom/opensource/display" name="AetheriaOS/aetheria_vendor_qcom_opensource_display" groups="qcom" />
-  <project path="vendor/qcom/opensource/healthd-ext" name="AetheriaOS/aetheria_vendor_qcom_opensource_healthd-ext" groups="qcom,pakala-vendor" />
-  <project path="vendor/qcom/opensource/interfaces" name="AetheriaOS/aetheria_vendor_qcom_opensource_interfaces" groups="qcom,qssi" />
-  <project path="vendor/qcom/opensource/libfmjni" name="AetheriaOS/aetheria_vendor_qcom_opensource_libfmjni" groups="qcom" />
-  <project path="vendor/qcom/opensource/power" name="AetheriaOS/aetheria_vendor_qcom_opensource_power" groups="qcom,pakala-vendor" />
-  <project path="vendor/qcom/opensource/thermal-engine" name="AetheriaOS/aetheria_vendor_qcom_opensource_thermal-engine" groups="qcom,pakala-vendor" />
-  <project path="vendor/qcom/opensource/usb" name="AetheriaOS/aetheria_vendor_qcom_opensource_usb" groups="qcom,pakala-vendor" />
-  <project path="vendor/qcom/opensource/vibrator" name="AetheriaOS/aetheria_vendor_qcom_opensource_vibrator" groups="qcom,pakala-vendor" />
+  <project path="hardware/qcom-caf/msm8953/audio" name="aetheria_hardware_qcom_audio" groups="qcom,msm8953" revision="lineage-23.2-caf-msm8953" />
+  <project path="hardware/qcom-caf/msm8953/display" name="aetheria_hardware_qcom_display" groups="qcom" revision="lineage-23.2-caf-msm8953" />
+  <project path="hardware/qcom-caf/msm8953/media" name="aetheria_hardware_qcom_media" groups="qcom,msm8953" revision="lineage-23.2-caf-msm8953" />
+  <project path="hardware/qcom-caf/msm8996/audio" name="aetheria_hardware_qcom_audio" groups="qcom,legacy-qcom" revision="lineage-23.2-caf-msm8996" />
+  <project path="hardware/qcom-caf/msm8996/display" name="aetheria_hardware_qcom_display" groups="qcom,legacy-qcom" revision="lineage-23.2-caf-msm8996" />
+  <project path="hardware/qcom-caf/msm8996/media" name="aetheria_hardware_qcom_media" groups="qcom,legacy-qcom" revision="lineage-23.2-caf-msm8996" />
+  <project path="hardware/qcom-caf/msm8998/audio" name="aetheria_hardware_qcom_audio" groups="qcom,legacy-qcom" revision="lineage-23.2-caf-msm8998" />
+  <project path="hardware/qcom-caf/msm8998/display" name="aetheria_hardware_qcom_display" groups="qcom,legacy-qcom" revision="lineage-23.2-caf-msm8998" />
+  <project path="hardware/qcom-caf/msm8998/media" name="aetheria_hardware_qcom_media" groups="qcom,legacy-qcom" revision="lineage-23.2-caf-msm8998" />
+  <project path="hardware/qcom-caf/sdm660/audio" name="aetheria_hardware_qcom_audio" groups="qcom,sdm660" revision="lineage-23.2-caf-sdm660" />
+  <project path="hardware/qcom-caf/sdm660/display" name="aetheria_hardware_qcom_display" groups="qcom" revision="lineage-23.2-caf-sdm660" />
+  <project path="hardware/qcom-caf/sdm660/media" name="aetheria_hardware_qcom_media" groups="qcom,sdm660" revision="lineage-23.2-caf-sdm660" />
+  <project path="hardware/qcom-caf/sdm845/audio" name="aetheria_hardware_qcom_audio" groups="qcom,sdm845" revision="lineage-23.2-caf-sdm845" />
+  <project path="hardware/qcom-caf/sdm845/display" name="aetheria_hardware_qcom_display" groups="qcom" revision="lineage-23.2-caf-sdm845" />
+  <project path="hardware/qcom-caf/sdm845/media" name="aetheria_hardware_qcom_media" groups="qcom,sdm845" revision="lineage-23.2-caf-sdm845" />
+  <project path="hardware/qcom-caf/sm8150/audio" name="aetheria_hardware_qcom_audio" groups="qcom,msmnile" revision="lineage-23.2-caf-sm8150" />
+  <project path="hardware/qcom-caf/sm8150/display" name="aetheria_hardware_qcom_display" groups="qcom" revision="lineage-23.2-caf-sm8150" />
+  <project path="hardware/qcom-caf/sm8150/media" name="aetheria_hardware_qcom_media" groups="qcom,msmnile" revision="lineage-23.2-caf-sm8150" />
+  <project path="hardware/qcom-caf/sm8250/audio" name="aetheria_hardware_qcom_audio" groups="qcom,kona" revision="lineage-23.2-caf-sm8250" />
+  <project path="hardware/qcom-caf/sm8250/display" name="aetheria_hardware_qcom_display" groups="qcom" revision="lineage-23.2-caf-sm8250" />
+  <project path="hardware/qcom-caf/sm8250/media" name="aetheria_hardware_qcom_media" groups="qcom,kona" revision="lineage-23.2-caf-sm8250" />
+  <project path="hardware/qcom-caf/sm8350/audio" name="aetheria_hardware_qcom_audio" groups="qcom,lahaina" revision="lineage-23.2-caf-sm8350" />
+  <project path="hardware/qcom-caf/sm8350/display" name="aetheria_hardware_qcom_display" groups="qcom" revision="lineage-23.2-caf-sm8350" />
+  <project path="hardware/qcom-caf/sm8450/audio/agm" name="aetheria_vendor_qcom_opensource_agm" groups="qcom,waipio-vendor" revision="lineage-23.2-caf-sm8450" />
+  <project path="hardware/qcom-caf/sm8450/audio/graphservices" name="aetheria_vendor_qcom_opensource_audioreach-graphservices" groups="qcom" revision="lineage-23.2-caf-sm8450" />
+  <project path="hardware/qcom-caf/sm8450/audio/pal" name="aetheria_vendor_qcom_opensource_arpal-lx" groups="qcom,waipio-vendor" revision="lineage-23.2-caf-sm8450" />
+  <project path="hardware/qcom-caf/sm8450/audio/primary-hal" name="aetheria_hardware_qcom_audio-ar" groups="qcom,waipio-vendor" revision="lineage-23.2-caf-sm8450" />
+  <project path="hardware/qcom-caf/sm8450/data-ipa-cfg-mgr" name="aetheria_vendor_qcom_opensource_data-ipa-cfg-mgr" groups="qcom,waipio-vendor" revision="lineage-23.2-caf-sm8450" />
+  <project path="hardware/qcom-caf/sm8450/display" name="aetheria_hardware_qcom_display" groups="qcom" revision="lineage-23.2-caf-sm8450" />
+  <project path="hardware/qcom-caf/sm8450-6.6/audio/agm" name="aetheria_vendor_qcom_opensource_agm" groups="qcom,waipio-6.6-vendor" revision="lineage-23.2-caf-sm8450-6.6" />
+  <project path="hardware/qcom-caf/sm8450-6.6/audio/graphservices" name="aetheria_vendor_qcom_opensource_audioreach-graphservices" groups="qcom" revision="lineage-23.2-caf-sm8450-6.6" />
+  <project path="hardware/qcom-caf/sm8450-6.6/audio/pal" name="aetheria_vendor_qcom_opensource_arpal-lx" groups="qcom,waipio-6.6-vendor" revision="lineage-23.2-caf-sm8450-6.6" />
+  <project path="hardware/qcom-caf/sm8450-6.6/audio/primary-hal" name="aetheria_hardware_qcom_audio-ar" groups="qcom,waipio-6.6-vendor" revision="lineage-23.2-caf-sm8450-6.6" />
+  <project path="hardware/qcom-caf/sm8450-6.6/data-ipa-cfg-mgr" name="aetheria_vendor_qcom_opensource_data-ipa-cfg-mgr" groups="qcom,waipio-6.6-vendor" revision="lineage-23.2-caf-sm8450-6.6" />
+  <project path="hardware/qcom-caf/sm8450-6.6/dataipa" name="aetheria_vendor_qcom_opensource_dataipa" groups="qcom,waipio-6.6-vendor" revision="lineage-23.2-caf-sm8450-6.6" />
+  <project path="hardware/qcom-caf/sm8450-6.6/display/core" name="aetheria_vendor_qcom_opensource_display-core" groups="qcom" revision="lineage-23.2-caf-sm8450-6.6" />
+  <project path="hardware/qcom-caf/sm8450-6.6/display/hal" name="aetheria_hardware_qcom_display" groups="qcom" revision="lineage-23.2-caf-sm8450-6.6" />
+  <project path="hardware/qcom-caf/sm8450-6.6/display/intf" name="aetheria_vendor_qcom_opensource_display-intf" groups="qcom" revision="lineage-23.2-caf-sm8450-6.6" />
+  <project path="hardware/qcom-caf/sm8550/audio/agm" name="aetheria_vendor_qcom_opensource_agm" groups="qcom,kailua-audio" revision="lineage-23.2-caf-sm8550" />
+  <project path="hardware/qcom-caf/sm8550/audio/graphservices" name="aetheria_vendor_qcom_opensource_audioreach-graphservices" groups="qcom" revision="lineage-23.2-caf-sm8550" />
+  <project path="hardware/qcom-caf/sm8550/audio/pal" name="aetheria_vendor_qcom_opensource_arpal-lx" groups="qcom,kailua-audio" revision="lineage-23.2-caf-sm8550" />
+  <project path="hardware/qcom-caf/sm8550/audio/primary-hal" name="aetheria_hardware_qcom_audio-ar" groups="qcom,kailua-audio" revision="lineage-23.2-caf-sm8550" />
+  <project path="hardware/qcom-caf/sm8550/data-ipa-cfg-mgr" name="aetheria_vendor_qcom_opensource_data-ipa-cfg-mgr" groups="qcom,kailua-vendor" revision="lineage-23.2-caf-sm8550" />
+  <project path="hardware/qcom-caf/sm8550/dataipa" name="aetheria_vendor_qcom_opensource_dataipa" groups="qcom,kailua-vendor" revision="lineage-23.2-caf-sm8550" />
+  <project path="hardware/qcom-caf/sm8550/display" name="aetheria_hardware_qcom_display" groups="qcom" revision="lineage-23.2-caf-sm8550" />
+  <project path="hardware/qcom-caf/sm8650/audio/agm" name="aetheria_vendor_qcom_opensource_agm" groups="qcom,lanai-audio" revision="lineage-23.2-caf-sm8650" />
+  <project path="hardware/qcom-caf/sm8650/audio/graphservices" name="aetheria_vendor_qcom_opensource_audioreach-graphservices" groups="qcom" revision="lineage-23.2-caf-sm8650" />
+  <project path="hardware/qcom-caf/sm8650/audio/pal" name="aetheria_vendor_qcom_opensource_arpal-lx" groups="qcom,lanai-audio" revision="lineage-23.2-caf-sm8650" />
+  <project path="hardware/qcom-caf/sm8650/audio/primary-hal" name="aetheria_hardware_qcom_audio-ar" groups="qcom,lanai-audio" revision="lineage-23.2-caf-sm8650" />
+  <project path="hardware/qcom-caf/sm8650/data-ipa-cfg-mgr" name="aetheria_vendor_qcom_opensource_data-ipa-cfg-mgr" groups="qcom,lanai-vendor" revision="lineage-23.2-caf-sm8650" />
+  <project path="hardware/qcom-caf/sm8650/dataipa" name="aetheria_vendor_qcom_opensource_dataipa" groups="qcom,lanai-vendor" revision="lineage-23.2-caf-sm8650" />
+  <project path="hardware/qcom-caf/sm8650/display" name="aetheria_hardware_qcom_display" groups="qcom" revision="lineage-23.2-caf-sm8650" />
+  <project path="hardware/qcom-caf/sm8750/audio/agm" name="aetheria_vendor_qcom_opensource_agm" groups="qcom,pakala-audio" revision="lineage-23.2-caf-sm8750" />
+  <project path="hardware/qcom-caf/sm8750/audio/graphservices" name="aetheria_vendor_qcom_opensource_audioreach-graphservices" groups="qcom" revision="lineage-23.2-caf-sm8750" />
+  <project path="hardware/qcom-caf/sm8750/audio/pal" name="aetheria_vendor_qcom_opensource_arpal-lx" groups="qcom,pakala-audio" revision="lineage-23.2-caf-sm8750" />
+  <project path="hardware/qcom-caf/sm8750/audio/primary-hal" name="aetheria_hardware_qcom_audio-ar" groups="qcom,pakala-audio" revision="lineage-23.2-caf-sm8750" />
+  <project path="hardware/qcom-caf/sm8750/data-ipa-cfg-mgr" name="aetheria_vendor_qcom_opensource_data-ipa-cfg-mgr" groups="qcom,pakala-vendor" revision="lineage-23.2-caf-sm8750" />
+  <project path="hardware/qcom-caf/sm8750/dataipa" name="aetheria_vendor_qcom_opensource_dataipa" groups="qcom,pakala-vendor" revision="lineage-23.2-caf-sm8750" />
+  <project path="hardware/qcom-caf/sm8750/display/core" name="aetheria_vendor_qcom_opensource_display-core" groups="qcom" revision="lineage-23.2-caf-sm8750" />
+  <project path="hardware/qcom-caf/sm8750/display/hal" name="aetheria_hardware_qcom_display" groups="qcom" revision="lineage-23.2-caf-sm8750" />
+  <project path="hardware/qcom-caf/sm8750/display/intf" name="aetheria_vendor_qcom_opensource_display-intf" groups="qcom" revision="lineage-23.2-caf-sm8750" />
+  <project path="hardware/qcom-caf/thermal" name="aetheria_hardware_qcom_thermal" groups="qcom,pakala-vendor" />
+  <project path="hardware/qcom-caf/thermal-legacy-um" name="aetheria_hardware_qcom_thermal" groups="qcom,lanai-vendor" revision="lineage-23.2-legacy-um" />
+  <project path="hardware/qcom-caf/wlan" name="aetheria_hardware_qcom_wlan" groups="qcom,pakala-wlan" revision="lineage-23.2-caf" />
+  <project path="vendor/codeaurora/telephony" name="aetheria_vendor_codeaurora_telephony" groups="qcom,qssi" />
+  <project path="vendor/qcom/opensource/audio-hal/st-hal" name="aetheria_vendor_qcom_opensource_audio-hal_st-hal" groups="qcom,lahaina" />
+  <project path="vendor/qcom/opensource/audio-hal/st-hal-ar" name="aetheria_vendor_qcom_opensource_audio-hal_st-hal-ar" groups="qcom,pakala-audio" />
+  <project path="vendor/qcom/opensource/audio-hal/st-hal-ar-legacy" name="aetheria_vendor_qcom_opensource_audio-hal_st-hal-ar" groups="qcom,lanai-audio" revision="lineage-23.2-legacy" />
+  <project path="vendor/qcom/opensource/commonsys-intf/audio" name="aetheria_vendor_qcom_opensource_audio-commonsys-intf" groups="qcom,qssi" />
+  <project path="vendor/qcom/opensource/commonsys-intf/display" name="aetheria_vendor_qcom_opensource_display-commonsys-intf" groups="qcom,qssi" />
+  <project path="vendor/qcom/opensource/commonsys/audio" name="aetheria_vendor_qcom_opensource_audio" groups="qcom,qssi" />
+  <project path="vendor/qcom/opensource/commonsys/display" name="aetheria_vendor_qcom_opensource_display-commonsys" groups="qcom,qssi" />
+  <project path="vendor/qcom/opensource/commonsys/fm" name="aetheria_vendor_qcom_opensource_fm-commonsys" groups="qcom,qssi" />
+  <project path="vendor/qcom/opensource/commonsys/wfd" name="aetheria_vendor_qcom_opensource_wfd-commonsys" groups="qcom,pakala-video" />
+  <project path="vendor/qcom/opensource/core-utils-sys" name="aetheria_vendor_qcom_opensource_core-utils-sys" groups="qcom,qssi" />
+  <project path="vendor/qcom/opensource/core-utils-vendor" name="aetheria_vendor_qcom_opensource_core-utils-vendor" groups="qcom,pakala-vendor" />
+  <project path="vendor/qcom/opensource/data-ipa-cfg-mgr-legacy-um" name="aetheria_vendor_qcom_opensource_data-ipa-cfg-mgr" groups="qcom,lahaina" revision="lineage-23.2-legacy-um" />
+  <project path="vendor/qcom/opensource/dataservices" name="aetheria_vendor_qcom_opensource_dataservices" groups="qcom,pakala-vendor" />
+  <project path="vendor/qcom/opensource/display" name="aetheria_vendor_qcom_opensource_display" groups="qcom" />
+  <project path="vendor/qcom/opensource/healthd-ext" name="aetheria_vendor_qcom_opensource_healthd-ext" groups="qcom,pakala-vendor" />
+  <project path="vendor/qcom/opensource/interfaces" name="aetheria_vendor_qcom_opensource_interfaces" groups="qcom,qssi" />
+  <project path="vendor/qcom/opensource/libfmjni" name="aetheria_vendor_qcom_opensource_libfmjni" groups="qcom" />
+  <project path="vendor/qcom/opensource/power" name="aetheria_vendor_qcom_opensource_power" groups="qcom,pakala-vendor" />
+  <project path="vendor/qcom/opensource/thermal-engine" name="aetheria_vendor_qcom_opensource_thermal-engine" groups="qcom,pakala-vendor" />
+  <project path="vendor/qcom/opensource/usb" name="aetheria_vendor_qcom_opensource_usb" groups="qcom,pakala-vendor" />
+  <project path="vendor/qcom/opensource/vibrator" name="aetheria_vendor_qcom_opensource_vibrator" groups="qcom,pakala-vendor" />
 
   <!-- Infrastructure -->
 
