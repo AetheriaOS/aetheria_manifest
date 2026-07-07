@@ -37,7 +37,8 @@
     <project path="prebuilts/tools-lineage" name="android_prebuilts_tools-lineage" clone-depth="1" remote="lineage" revision="lineage-23.2" />
 
   <!-- CodeLinaro additions -->
-
+    <project path="device/qcom/sepolicy_vndr/sm8650" name="LineageOS/android_device_qcom_sepolicy_vndr" groups="qcom,waipio-vendor" remote="lineage" revision="lineage-23.2-caf-sm8650" />
+  
   <!-- Infrastructure -->
 
   <!-- Tools -->
