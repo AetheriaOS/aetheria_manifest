@@ -61,7 +61,7 @@
 
   <!-- CodeLinaro additions -->
   <project path="device/qcom/sepolicy" name="aetheria_device_qcom_sepolicy" groups="qcom,qssi" />
-  <project path="device/qcom/sepolicy-legacy-um" name="aetheria_device_qcom_sepolicy" groups="qcom,sdm660" revision="aetheria-1.0legacy-um" />
+  <project path="device/qcom/sepolicy-legacy-um" name="aetheria_device_qcom_sepolicy" groups="qcom,sdm660" revision="aetheria-1.0-legacy-um" />
   <project path="device/qcom/sepolicy_vndr/legacy-um" name="aetheria_device_qcom_sepolicy_vndr" groups="qcom,lahaina" revision="aetheria-1.0-legacy-um" />
   <project path="external/ant-wireless/hidl" name="aetheria_external_ant-wireless_hidl" groups="qcom,qssi" />
   <project path="external/json-c" name="aetheria_external_json-c" groups="qcom,qssi" />
