@@ -65,7 +65,7 @@
   <project path="device/qcom/sepolicy_vndr/legacy-um" name="aetheria_device_qcom_sepolicy_vndr" groups="qcom,lahaina" revision="aetheria-1.0-legacy-um" />
   <project path="external/ant-wireless/hidl" name="aetheria_external_ant-wireless_hidl" groups="qcom,qssi" />
   <project path="external/json-c" name="aetheria_external_json-c" groups="qcom,qssi" />
-  <project path="hardware/qcom-caf/bt" name="aetheria_hardware_qcom_bt" groups="qcom,legacy-qcom" revision="aetheria-1.0" />
+  <project path="hardware/qcom-caf/bt" name="aetheria_hardware_qcom_bt" groups="qcom,legacy-qcom" revision="aetheria-1.0-caf" />
   <project path="hardware/qcom-caf/common" name="aetheria_hardware_qcom-caf_common" groups="qcom" >
     <!-- add guard for AOSP hardware/qcom dir -->
     <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
