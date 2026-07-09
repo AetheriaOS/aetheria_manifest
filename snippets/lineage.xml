@@ -37,10 +37,6 @@
     <project path="prebuilts/tools-lineage" name="android_prebuilts_tools-lineage" clone-depth="1" remote="lineage" revision="lineage-23.2" />
 
   <!-- CodeLinaro additions -->
-    <project path="device/qcom/sepolicy_vndr/sm8450" name="LineageOS/android_device_qcom_sepolicy_vndr" groups="qcom,waipio-vendor" revision="lineage-23.2-caf-sm8450" />
-    <project path="device/qcom/sepolicy_vndr/sm8550" name="LineageOS/android_device_qcom_sepolicy_vndr" groups="qcom,kailua-vendor" revision="lineage-23.2-caf-sm8550" />
-    <project path="device/qcom/sepolicy_vndr/sm8650" name="LineageOS/android_device_qcom_sepolicy_vndr" groups="qcom,lanai-vendor" revision="lineage-23.2-caf-sm8650" />
-    <project path="device/qcom/sepolicy_vndr/sm8750" name="LineageOS/android_device_qcom_sepolicy_vndr" groups="qcom,pakala-vendor" revision="lineage-23.2-caf-sm8750" />
   
  <!-- add guards for CAF repositories -->
     <linkfile src="os_pickup_sepolicy_vndr.mk" dest="device/qcom/sepolicy_vndr/SEPolicy.mk" />
