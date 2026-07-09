@@ -75,5 +75,4 @@
   <!-- Infrastructure -->
 
   <!-- Tools -->
-  <project path="hardware/qcom-caf/wlan/qcwcn" name="aetheria_hardware_qcom_wlan" revision="aetheria-1.0" />
 </manifest>
