@@ -54,25 +54,18 @@
     <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8650/Android.bp" />
     <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8750/Android.bp" />
   <project path="hardware/qcom-caf/msm8953/audio" name="android_hardware_qcom_audio" groups="qcom,msm8953" revision="lineage-23.2-caf-msm8953"  remote="lineage" />
-  <project path="hardware/qcom-caf/msm8953/display" name="android_hardware_qcom_display" groups="qcom" revision="lineage-23.2-caf-msm8953"  remote="lineage" />
   <project path="hardware/qcom-caf/msm8953/media" name="android_hardware_qcom_media" groups="qcom,msm8953" revision="lineage-23.2-caf-msm8953"  remote="lineage" />
   <project path="hardware/qcom-caf/msm8998/audio" name="android_hardware_qcom_audio" groups="qcom,legacy-qcom" revision="lineage-23.2-caf-msm8998"  remote="lineage" />
-  <project path="hardware/qcom-caf/msm8998/display" name="android_hardware_qcom_display" groups="qcom,legacy-qcom" revision="lineage-23.2-caf-msm8998"  remote="lineage" />
   <project path="hardware/qcom-caf/msm8998/media" name="android_hardware_qcom_media" groups="qcom,legacy-qcom" revision="lineage-23.2-caf-msm8998"  remote="lineage" />
   <project path="hardware/qcom-caf/sdm660/audio" name="android_hardware_qcom_audio" groups="qcom,sdm660" revision="lineage-23.2-caf-sdm660"  remote="lineage" />
-  <project path="hardware/qcom-caf/sdm660/display" name="android_hardware_qcom_display" groups="qcom" revision="lineage-23.2-caf-sdm660"  remote="lineage" />
   <project path="hardware/qcom-caf/sdm660/media" name="android_hardware_qcom_media" groups="qcom,sdm660" revision="lineage-23.2-caf-sdm660"  remote="lineage" />
   <project path="hardware/qcom-caf/sdm845/audio" name="android_hardware_qcom_audio" groups="qcom,sdm845" revision="lineage-23.2-caf-sdm845"  remote="lineage" />
-  <project path="hardware/qcom-caf/sdm845/display" name="android_hardware_qcom_display" groups="qcom" revision="lineage-23.2-caf-sdm845"  remote="lineage" />
   <project path="hardware/qcom-caf/sdm845/media" name="android_hardware_qcom_media" groups="qcom,sdm845" revision="lineage-23.2-caf-sdm845"  remote="lineage" />
   <project path="hardware/qcom-caf/sm8150/audio" name="android_hardware_qcom_audio" groups="qcom,msmnile" revision="lineage-23.2-caf-sm8150"  remote="lineage" />
-  <project path="hardware/qcom-caf/sm8150/display" name="android_hardware_qcom_display" groups="qcom" revision="lineage-23.2-caf-sm8150"  remote="lineage" />
   <project path="hardware/qcom-caf/sm8150/media" name="android_hardware_qcom_media" groups="qcom,msmnile" revision="lineage-23.2-caf-sm8150"  remote="lineage" />
   <project path="hardware/qcom-caf/sm8250/audio" name="android_hardware_qcom_audio" groups="qcom,kona" revision="lineage-23.2-caf-sm8250"  remote="lineage" />
-  <project path="hardware/qcom-caf/sm8250/display" name="android_hardware_qcom_display" groups="qcom" revision="lineage-23.2-caf-sm8250"  remote="lineage" />
   <project path="hardware/qcom-caf/sm8250/media" name="android_hardware_qcom_media" groups="qcom,kona" revision="lineage-23.2-caf-sm8250"  remote="lineage" />
   <project path="hardware/qcom-caf/sm8350/audio" name="android_hardware_qcom_audio" groups="qcom,lahaina" revision="lineage-23.2-caf-sm8350"  remote="lineage" />
-  <project path="hardware/qcom-caf/sm8350/display" name="android_hardware_qcom_display" groups="qcom" revision="lineage-23.2-caf-sm8350"  remote="lineage" />
   <project path="hardware/qcom-caf/sm8450/audio/agm" name="android_vendor_qcom_opensource_agm" groups="qcom,waipio-vendor" revision="lineage-23.2-caf-sm8450"  remote="lineage" />
   <project path="hardware/qcom-caf/sm8450/audio/graphservices" name="android_vendor_qcom_opensource_audioreach-graphservices" groups="qcom" revision="lineage-23.2-caf-sm8450"  remote="lineage" />
   <project path="hardware/qcom-caf/sm8450/audio/pal" name="android_vendor_qcom_opensource_arpal-lx" groups="qcom,waipio-vendor" revision="lineage-23.2-caf-sm8450"  remote="lineage" />
@@ -97,7 +90,6 @@
   <project path="hardware/qcom-caf/sm8650/audio/primary-hal" name="android_hardware_qcom_audio-ar" groups="qcom,lanai-audio" revision="lineage-23.2-caf-sm8650"  remote="lineage" />
   <project path="hardware/qcom-caf/sm8650/data-ipa-cfg-mgr" name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" groups="qcom,lanai-vendor" revision="lineage-23.2-caf-sm8650"  remote="lineage" />
   <project path="hardware/qcom-caf/sm8650/dataipa" name="android_vendor_qcom_opensource_dataipa" groups="qcom,lanai-vendor" revision="lineage-23.2-caf-sm8650"  remote="lineage" />
-  <project path="hardware/qcom-caf/sm8650/display" name="android_hardware_qcom_display" groups="qcom" revision="lineage-23.2-caf-sm8650"  remote="lineage" />
   <project path="hardware/qcom-caf/sm8750/audio/agm" name="android_vendor_qcom_opensource_agm" groups="qcom,pakala-audio" revision="lineage-23.2-caf-sm8750"  remote="lineage" />
   <project path="hardware/qcom-caf/sm8750/audio/graphservices" name="android_vendor_qcom_opensource_audioreach-graphservices" groups="qcom" revision="lineage-23.2-caf-sm8750"  remote="lineage" />
   <project path="hardware/qcom-caf/sm8750/audio/pal" name="android_vendor_qcom_opensource_arpal-lx" groups="qcom,pakala-audio" revision="lineage-23.2-caf-sm8750"  remote="lineage" />
