@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <!-- LineageOS additions -->
+  <!-- AetheriaOS additions -->
   <project path="android" name="aetheria_android" />
   <project path="device/lineage/atv" name="aetheria_device_aetheria_atv" />
   <project path="device/lineage/car" name="aetheria_device_aetheria_car" />
