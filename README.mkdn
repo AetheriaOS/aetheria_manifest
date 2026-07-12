@@ -14,7 +14,7 @@ repo init -u https://github.com/AetheriaOS/aetheria_manifest.git -b aetheria-1.0
 
 Then to sync up:
 ```bash
-repo sync -j8
+repo sync -c --no-clone-bundle --no-tags --optimized-fetch --prune -j8
 ```
 # Set up environment
 
