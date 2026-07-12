@@ -126,4 +126,5 @@
   <!-- Infrastructure -->
 
   <!-- Tools -->
+  <project path="lineage/scripts" name="LineageOS/scripts" groups="tools" revision="main" />
 </manifest>
