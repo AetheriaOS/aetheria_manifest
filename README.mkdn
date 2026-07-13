@@ -22,3 +22,20 @@ Set up the build environment
 ```bash
 . build/envsetup.sh
 ```
+# Lunch target
+
+UUse bloom devices-codename only if you select userdebug only.
+```bash
+bloom <device-codename> <variant>
+```
+# Lunch target
+
+Lunch target
+```bash
+lunch aetheria_<device-codename>-bp4a-<variant>
+```
+# Start compiling
+
+```bash
+m bacon -j$(nproc)
+```
