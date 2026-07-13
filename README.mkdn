@@ -2,40 +2,29 @@
 
 # Get Started
 ---------------
-To get started with Android/LineageOS, you'll need to get familiar with [Source Control Tools](https://source.android.com/setup/develop).
-
-# Initialize local repository
+To get started with Android/AetheriaOS, you'll need to get familiar with [Source Control Tools](https://source.android.com/setup/develop).
 
 To initialize your local repository using the AetheriaOS trees, use a command like this:
 ```bash
 repo init -u https://github.com/AetheriaOS/aetheria_manifest.git -b aetheria-1.0
 ```
-# Sync up
-
 Then to sync up:
 ```bash
 repo sync -c --no-clone-bundle --no-tags --optimized-fetch --prune --force-sync -j8
 ```
-# Set up environment
+# Build
+---------------
 
 Set up the build environment
 ```bash
 . build/envsetup.sh
 ```
-# Lunch target
 
-UUse bloom devices-codename only if you select userdebug only.
+Use bloom devices-codename only if you select userdebug only.
 ```bash
 bloom <device-codename> <variant>
 ```
-# Lunch target
-
 Lunch target
 ```bash
 lunch aetheria_<device-codename>-bp4a-<variant>
-```
-# Start compiling
-
-```bash
-m bacon -j$(nproc)
 ```
