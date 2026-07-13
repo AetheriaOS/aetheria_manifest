@@ -22,15 +22,3 @@ Set up the build environment
 ```bash
 . build/envsetup.sh
 ```
-# Lunch target
-
-Lunch a target
-```bash
-lunch aetheria_codename-bp4a-userdebug
-```
-
-# Start compiling
-
-```bash
-m bacon -j$(nproc)
-```
