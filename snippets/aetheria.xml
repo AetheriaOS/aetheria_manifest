@@ -2,10 +2,10 @@
 <manifest>
 
   <!-- Packages -->
-  <project path="packages/apps/Settings" name="aetheria_settings" groups="pdk-fs,pdk-cw-tvc,sysui-studio" />  
-  <project path="packages/apps/SetupWizard" name="aetheria_packages_apps_SetupWizard" />
+  <project path="packages/apps/Settings" name="aetheria_settings" groups="pdk-fs,pdk-cw-tvc,sysui-studio" revision="aetheria-1.0" />  
+  <project path="packages/apps/SetupWizard" name="aetheria_packages_apps_SetupWizard" revision="aetheria-1.0" />
 
   <!-- Vendor -->
-  <project path="vendor/lineage" name="aetheria_vendor" />
+  <project path="vendor/lineage" name="aetheria_vendor" remote="N1709" revision="aetheria-1.0" />
 
 </manifest>
