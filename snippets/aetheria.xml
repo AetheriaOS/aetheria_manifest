@@ -6,6 +6,9 @@
   <project path="packages/apps/Launcher3" name="aetheria_packages_apps_Launcher3" groups="pdk-fs,sysui-studio,pdk-cw-tvc" revision="aetheria-1.0" />
   <project path="packages/apps/SetupWizard" name="aetheria_packages_apps_SetupWizard" revision="aetheria-1.0" />
 
+  <!-- Frameworks -->
+  <project path="frameworks/base" name="aetheria_frameworks_base" groups="pdk-cw-fs,pdk-fs,sysui-studio" />
+  
   <!-- Vendor -->
   <project path="vendor/lineage" name="aetheria_vendor" remote="N1709" revision="aetheria-1.0" />
 
