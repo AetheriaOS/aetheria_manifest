@@ -11,8 +11,6 @@
   
   <!-- Vendor -->
   <project path="vendor/lineage" name="aetheria_vendor" remote="N1709" revision="aetheria-1.0" />
-  <project path="vendor/pixel/clocks" name="aetheria_vendor_pixel_clocks" revision="aetheria-1.0" />
-  <project path="vendor/pixel/themepicker" name="aetheria_vendor_pixel_themepicker" revision="aetheria-1.0" />
 
 
 </manifest>
