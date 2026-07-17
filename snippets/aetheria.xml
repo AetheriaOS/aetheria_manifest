@@ -12,6 +12,6 @@
   
   <!-- Vendor -->
   <project path="vendor/lineage" name="aetheria_vendor" remote="N1709" revision="aetheria-1.0" />
-
+  <project path="vendor/extras" name="aetheria_vendor_extras" remote="N1709" revision="aetheria-1.0" />
 
 </manifest>
